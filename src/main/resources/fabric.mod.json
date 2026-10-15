@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "id": "balloonesp",
+  "version": "1.0.0",
+  "name": "Balloon ESP",
+  "description": "Podswietla baloniki (glowy) przez sciany. Klawisz K = on/off.",
+  "environment": "client",
+  "entrypoints": { "client": ["pl.esp.balloon.BalloonEsp"] },
+  "depends": { "fabricloader": ">=0.16.0", "minecraft": "~1.21.4", "java": ">=21", "fabric-api": "*" }
+}
